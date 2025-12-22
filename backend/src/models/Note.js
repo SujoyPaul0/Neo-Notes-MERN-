@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 // 1- create a schema
 // 2- create a model using the schema
 
-const noteScema = new mongoose.Schema(
+const noteSchema = new mongoose.Schema(
     {
     title: {
         type: String,
